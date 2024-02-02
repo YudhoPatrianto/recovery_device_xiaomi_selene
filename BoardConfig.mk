@@ -152,3 +152,12 @@ TW_PREPARE_DATA_MEDIA_EARLY := true
 
 # Handle /data/media
 RECOVERY_SDCARD_ON_DATA := true
+
+# Keymaster
+TARGET_RECOVERY_DEVICE_MODULES += \
+    libkeymaster4 \
+    libpuresoftkeymasterdevice
+
+TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster4.so \
+    $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so
