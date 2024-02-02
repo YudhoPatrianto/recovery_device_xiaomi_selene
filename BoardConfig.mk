@@ -136,3 +136,6 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 
 # Props
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
+# MKE2FS
+TARGET_USES_MKE2FS := true
