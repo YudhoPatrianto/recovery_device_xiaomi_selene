@@ -81,6 +81,9 @@ BOARD_SUPER_PARTITION_GROUPS := xiaomi_dynamic_partitions
 BOARD_XIAOMI_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
 BOARD_XIAOMI_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := selene
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
@@ -116,5 +119,7 @@ TW_DEVICE_VERSION := YudhoPatrianto
 
 # GUI TWRP
 TW_FRAMERATE := 90
+
+# 
 
 
