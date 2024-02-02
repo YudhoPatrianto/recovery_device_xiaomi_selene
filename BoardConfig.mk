@@ -10,6 +10,10 @@ DEVICE_PATH := device/xiaomi/selene
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+# System As Root
+BOARD_SUPPRESS_SECURE_ERASE := true
+BOARD_ROOT_EXTRA_FOLDERS += metadata
+
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
