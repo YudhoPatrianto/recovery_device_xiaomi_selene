@@ -111,4 +111,7 @@ TW_INCLUDE_REPACKTOOLS := true
 # TWRP Config
 TW_DEVICE_VERSION := YudhoPatrianto
 
+# GUI TWRP
+TW_FRAMERATE := 90
+
 
